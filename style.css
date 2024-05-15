@@ -13,6 +13,7 @@ html, body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    text-align: center;
 }
 
 button {
@@ -42,7 +43,6 @@ button:hover::before {
 h1, h2 {
     color: white;
     font-size: xx-large;
-    text-align: center;
     margin: 0;
     padding: 10px;
 }
@@ -55,6 +55,8 @@ nav {
 
 nav ul {
     list-style-type: none;
+    margin: 0;
+    padding: 10px;
 }
 
 nav ul li {
@@ -70,14 +72,12 @@ nav ul li a {
 
 nav ul li a:hover, nav ul li a:active {
     color: crimson;
-    text-decoration:overline;
+    text-decoration: overline;
 }
 
 footer {
-    margin: 0;
-    padding: 0px;
-    bottom: 0;
-    width: 100%;
+    padding: 20px;
+    background-color: #242424;
     color: white;
     text-align: center;
 }
@@ -89,7 +89,7 @@ footer {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20x;
+    padding: 20px;
     text-align: center;
 }
 
