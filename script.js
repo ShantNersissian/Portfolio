@@ -1,8 +1,8 @@
 window.addEventListener('scroll', function() {
     const nav = document.getElementById('navbar');
-    const heroHeight = document.querySelector('.hero').offsetHeight;
-    
-    if (window.scrollY > heroHeight) {
+    const homeHeight = document.querySelector('.home').offsetHeight;
+
+    if (window.scrollY > homeHeight) {
         nav.classList.add('fixed-nav');
     } else {
         nav.classList.remove('fixed-nav');
